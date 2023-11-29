@@ -3,14 +3,10 @@ body {
 }
 
 .heading {
-    font-size: 25px;
-    width: 100%;
-    font-weight: bold;
-    margin: 0;
-    height: 50px;
+width: 100%;
 }
 
-#start {
+#start , #restart{
     font-size: 20px;
 }
 
@@ -18,4 +14,25 @@ canvas {
     border:5px solid rgb(255, 245, 58);
     border-radius: 20px;
     margin-top: 100px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    line-height: 3 ;
+    color: whitesmoke;
+    background-color: green;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+.heading h1 {
+    display: inline;
+    font-weight: bold
 }
