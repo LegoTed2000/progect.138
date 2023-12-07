@@ -16,7 +16,7 @@ function draw() {
 
 	if(scorerightwrist > 0.2) {
         circle(rightWristx, rightWristy , 20);
-		
+
 		r = Math.random(255);
 		g = Math.random(255);
 		b = Math.random(255);
@@ -30,8 +30,14 @@ function draw() {
     }
 }
 
+game_status = "";
+
 function restart() {
-    
+}
+
+function start() {
+	game_status = "start";
+	document.getElementById("status").innerHTML = "Game Is Loaded!";
 }
 
 function modelLoaded() {
